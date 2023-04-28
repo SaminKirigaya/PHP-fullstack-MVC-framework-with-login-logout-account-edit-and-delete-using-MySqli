@@ -16,7 +16,7 @@ Copy everything inside MVC and paste to your root directory public_html.
 
 Than change the urls like #define('url','https://www/something.com');
 
-Just dont use MVC anywhere cause you are not going to put MVC folder inside root, you are just copyinh everything inside MVC and paste in public_html root.
+Just dont use MVC anywhere cause you are not going to put MVC folder inside root, you are just copying everything inside MVC and paste in public_html root.
 
 Also all other url such as in button or navbar change them to your ip such as https://www.something.com insted of https://localhost/MVC .
 
