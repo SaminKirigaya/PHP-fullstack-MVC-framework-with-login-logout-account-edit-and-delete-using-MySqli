@@ -1,0 +1,96 @@
+@media (min-width:1000px) and (max-width:8000px){
+    .cbody{
+        width: 30vw;
+        height: 70vh; 
+        margin-top: 10vh;
+        margin-left: 34vw;
+    }
+    .imgsize{
+        width:10%;
+        height:10%;
+        border-radius: 50%;
+        position: relative;
+        width: 27%;
+        height: 20%;
+        margin-top: 4rem;
+        left: 35%;
+    
+    }
+    .cardbtn{
+        background-color: deepskyblue !important;
+        
+        height: 4vh;
+        padding:0;
+        width: 5vw;
+    }
+    
+
+}
+@media (min-width:200px) and (max-width:500px){
+    .cbody{
+        width: 60vw;
+        height: 73vh; 
+        margin-top: 10vh;
+        margin-left: 18vw;
+        font-size : 0.5rem;
+    }
+    .imgsize{
+        border-radius: 50%;
+        position: relative;
+        width: 35%;
+        height: 16%;
+        margin-top: 4rem;
+        left: 33%;
+    
+    }
+    .cardbtn{
+        background-color: deepskyblue !important;
+        
+        height: 4vh;
+        padding:0;
+        width: 16vw;
+    }
+    .ms-5{
+        margin-left: 3.5rem !important;
+        
+    }
+    
+    
+    
+}
+
+
+
+
+@media (min-width:501px) and (max-width:999px){
+    .cbody{
+        width: 60vw;
+        height: 73vh; 
+        margin-top: 10vh;
+        margin-left: 18vw;
+        font-size : 0.5rem;
+    }
+    .imgsize{
+        border-radius: 50%;
+        position: relative;
+        width: 35%;
+        height: 16%;
+        margin-top: 4rem;
+        left: 33%;
+    
+    }
+    .cardbtn{
+        background-color: deepskyblue !important;
+        
+        height: 4vh;
+        padding:0;
+        width: 16vw;
+    }
+    
+    .ms-5{
+        margin-left: 5.5rem !important;
+        
+    }
+    
+}
+

@@ -1,0 +1,31 @@
+.bgform{
+    background-color: rgb(156, 241, 252);
+    border-radius: 0.5rem;
+
+   
+}
+
+
+
+.regbtn{
+    background-color: transparent !important;
+    
+    width : 1rem;
+    border : none;
+}
+
+.formbtn{
+    display : none;
+}
+
+.domin{
+    min-height: 90vh;
+}
+
+.bgcopy{
+    background-color: black;
+    color: white;
+    justify-content:center;
+    text-align : center;
+    height:10vh !important;
+}

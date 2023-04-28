@@ -1,0 +1,433 @@
+.navdesignbod {
+    background: linear-gradient(to left, rgb(223, 134, 2), rgb(252, 255, 73));
+    filter: hue-rotate(100deg);
+    -webkit-filter: hue-rotate(100deg);
+    animation: colchng 2s linear infinite;
+    -webkit-animation: colchng 2s linear infinite;
+    margin-top : none;
+}
+
+@keyframes colchng {
+    from {
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+.row .x{
+    max-width : 90% !important;
+}
+.bgcopy{
+    background-color: black;
+    color: white;
+    justify-content:center;
+    text-align : center;
+    height:10vh !important;
+}
+
+
+@media (min-width: 991px) and (max-width:1280px) {
+
+    .text{
+        position: absolute;
+        background-image: url(https://localhost/MVC/public/img/bgrev.jpg);
+        width: 100vw;
+        height: 100vh;
+        font-size: 2rem;
+        padding: 10rem;
+        text-align: center;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+        
+    }
+    .text.showdes{
+        position: absolute;
+        background-image: url(https://localhost/MVC/public/img/bgrev.jpg);
+        width: 100vw;
+        height: 100vh;
+        font-size: 2rem;
+        padding: 10rem;
+        text-align: center;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        -webkit-background-clip: text;
+        color: transparent;
+        opacity:1;
+
+        
+    }
+
+    .navtextstyl {
+        font-family: 'Pacifico', cursive;
+        color: rgb(238, 16, 16);
+    }
+    .logostyle {
+        font-family: 'Pacifico', cursive;
+        color: rgb(238, 16, 16);
+    }
+    .hov {
+        color: aliceblue !important;
+    }
+    a:active {
+        color: aliceblue !important;
+    }
+    .rowdes {
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .medmarg {
+        margin-left: 10%;
+    }
+    
+    .hovborder {
+        border-style: solid;
+        border-color: white;
+    }
+
+    .rowdes1 {
+        margin-left: 26vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .rowdes3{
+        margin-left: 1vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .rowdes2{
+        margin-left: 20vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .w-100 {
+        width: 100% !important;
+        height: 60vh;
+      }
+    .regbtn{
+        background-color: transparent !important;
+        
+        width : 1rem;
+        border : none;
+        margin-bottom: none;
+    }  
+        
+}
+@media (min-width: 1360px) and (max-width:8000px){
+
+    
+
+    .text{
+        position: absolute;
+        background-image: url(https://localhost/MVC/public/img/bgrev.jpg);
+        width: 100vw;
+        height: 100vh;
+        font-size: 3rem;
+        padding: 14rem;
+        text-align: center;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-clip: text;
+        color: transparent;
+        opacity: 0;
+        transition: opacity 1.5s ease-out;
+        
+    }
+    .text.showdes{
+        position: absolute;
+        background-image: url(https://localhost/MVC/public/img/bgrev.jpg);
+        width: 100vw;
+        height: 100vh;
+        font-size: 3rem;
+        padding: 14rem;
+        text-align: center;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-clip: text;
+        color: transparent;
+
+        opacity: 1;
+    }
+    #mychart1{
+        display: block;
+        position:relative;
+        box-sizing: border-box;
+        height: 25% !important;
+        width: 25% !important;
+        margin-top: 8rem;
+        margin-left: 8rem;
+        margin-bottom:2rem;
+    }
+    #mychart2{
+        display: block;
+        box-sizing: border-box;
+        height: 25%;
+        width: 25%;
+        margin-top: 8rem;
+        margin-left: 8rem;
+    }
+    
+    .navtextstyl {
+        font-family: 'Pacifico', cursive;
+        color: rgb(238, 16, 16);
+    }
+    .logostyle {
+        font-family: 'Pacifico', cursive;
+        color: rgb(238, 16, 16);
+    }
+    .hov {
+        color: aliceblue !important;
+    }
+    a:active {
+        color: aliceblue !important;
+    }
+    .rowdes {
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .medmarg {
+        margin-left: 10%;
+    }
+    
+    .hovborder {
+        border-style: solid;
+        border-color: white;
+    }
+
+    .rowdes1 {
+        margin-left: 39vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .rowdes3{
+        margin-left: 1vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .rowdes2{
+        margin-left: 35vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .w-100 {
+        width: 100% !important;
+        height: 60vh;
+      }
+    .regbtn{
+        background-color: transparent !important;
+        
+        width : 1rem;
+        border : none;
+        margin-bottom: none;
+    }
+
+    
+
+}
+@media (min-width: 1281px) and (max-width:1359px){
+    .navtextstyl {
+        font-family: 'Pacifico', cursive;
+        color: rgb(238, 16, 16);
+    }
+    .logostyle {
+        font-family: 'Pacifico', cursive;
+        color: rgb(238, 16, 16);
+    }
+    .hov {
+        color: aliceblue !important;
+    }
+    a:active {
+        color: aliceblue !important;
+    }
+    .rowdes {
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .medmarg {
+        margin-left: 10%;
+    }
+    
+    .hovborder {
+        border-style: solid;
+        border-color: white;
+    }
+
+    .rowdes1 {
+        margin-left: 41vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .rowdes3{
+        margin-left: 1vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .rowdes2{
+        margin-left: 35vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .w-100 {
+        width: 100% !important;
+        height: 60vh;
+      }
+    .regbtn{
+        background-color: transparent !important;
+        
+        width : 1rem;
+        border : none;
+        margin-bottom: none;
+    }
+    .text{
+        position: absolute;
+        background-image: url(https://localhost/MVC/public/img/bgrev.jpg);
+        width: 100vw;
+        height: 100vh;
+        font-size: 2em;
+        padding: 12rem;
+        text-align: center;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        -webkit-background-clip: text;
+        color: transparent;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+        
+    }
+    .text.showdes{
+        position: absolute;
+        background-image: url(https://localhost/MVC/public/img/bgrev.jpg);
+        width: 100vw;
+        height: 100vh;
+        font-size: 2em;
+        padding: 12rem;
+        text-align: center;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        -webkit-background-clip: text;
+        color: transparent;
+        opacity: 1;
+        
+    }
+
+    
+}
+
+@media (min-width: 100px) and (max-width:991px) {
+    .text{
+        position: absolute;
+        background-image: url(https://localhost/MVC/public/img/bgrev.jpg);
+        width: 100vw;
+        height: 100vh;
+        font-size: 1rem;
+        padding: 3rem;
+        text-align: center;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        -webkit-background-clip: text;
+        color: transparent;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+        
+    }
+    .text.showdes{
+        position: absolute;
+        background-image: url(https://localhost/MVC/public/img/bgrev.jpg);
+        width: 100vw;
+        height: 100vh;
+        font-size: 1rem;
+        padding: 3rem;
+        text-align: center;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        -webkit-background-clip: text;
+        color: transparent;
+        opacity: 1;
+   
+        
+    }
+    .logostyle {
+        font-family: 'Pacifico', cursive;
+        color: rgb(238, 16, 16);
+    }
+    .navtextstyl {
+        font-family: 'Pacifico', cursive;
+        color: rgb(238, 16, 16);
+        text-align: center;
+        border-style: solid !important;
+        border-bottom-color: white !important;
+    }
+    .hov {
+        color: aliceblue !important;
+    }
+    a:active {
+        color: aliceblue !important;
+    }
+    .rowdes {
+        margin-left: -10%;
+        padding: 0;
+        border-bottom-style: solid;
+        border-bottom-color: white;
+        border-bottom-width: 0.1rem;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .rowdes1 {
+        margin-left: -10%;
+        padding: 0;
+    }
+
+    .rowdes2 {
+        margin-left: -10%;
+        padding: 0;
+        border-bottom-style: solid;
+        border-bottom-color: white;
+        border-bottom-width: 0.1rem;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    
+    .rowdes3 {
+        margin-left: -10%;
+        padding: 0;
+    }
+
+    .regbtn{
+        background-color: transparent !important;
+        
+        width : 1rem;
+        border : none;
+        margin-bottom: none;
+    }
+}
+
+.bdesign{
+    background-color: coral;
+    clip-path: polygon(100% 0, 0 68%, 0 100%, 100% 31%);
+}
+
