@@ -27,6 +27,8 @@ Any further ques you can ask me in my mail arnobsamin95@gmail.com
 Change every url where you see :
 https://localhost/MVC/... to https://www.something.com/...
 
+Make sure to import the sql file that I provided in your database and name config setup of database according dump.php.
+
 
 ## Optimizations
 
